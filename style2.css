@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+    background-color: #f9f9ff;
+}
+/*start section home*/
+#home{
+    background-color: #000000bf;
+    background-size: cover;
+    height: 60px;
+}
+.list1{
+    display: flex;
+    text-align: right;
+    padding-left: 664px;
+}
+.list
+{
+    color: white;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    font-size: 16px;
+    font-family: Calibri (Body);
+
+}
+.list li
+{
+    padding: 17px 15px;
+}
+.logo{
+    width: 60px;
+    height: 100px;
+    display: inline;
+}
+.img{
+    margin: auto;
+    margin-right: 20px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 86px;
+
+}
+a{
+    text-decoration: unset;
+    color: white;
+}
+a:hover{
+    color:#f42f2c;
+}
+/*end section home*/
+.text1{
+    text-align: center;
+    font-size: 60px;
+    font-family: Monotype Corsiva;
+    margin-bottom: 20px;
+}
+.menu
+ {
+	overflow: hidden;
+    background-color: #f9f9ff;
+    margin-left: 350px;
+    margin-bottom: 100px;
+ }
+.menu a {
+	float: left;
+	display: block;
+	color: #5d5f63d9;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border: 2px solid;
+    margin: 2px;
+    border-radius: 2px;
+	border-color: #827e7e4f;
+	font-family: Regular;
+  }  
+ .menu a:hover {
+	background-color: #f42f2c;
+    color: #ddd;
+  }
+  .menu a:active{
+    background-color: #f42f2c;
+    color: #ddd;
+  }
+  /*END LINKS*/
+  /*start nenu*/
+  .container1{
+      width: 100%;
+      display: flex;
+  }
+  .container{
+    width: 100%;
+    display: flex;
+}
+  .port {
+    width: 595px;
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.text2{
+    padding-right: 100px;
+}
+.text3{
+    padding-top: 5px;
+    color: #f42f2c;
+}
+.button1{
+    background-color: #f42f2c;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin-top: 22px;
+    margin-left: 25px;
+}
+.button1:hover{
+    background-color: white;
+    color: #f42f2c;
+}

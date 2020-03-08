@@ -1,0 +1,300 @@
+/*start home page*/
+body{
+    margin: 0px;
+}
+/*start section home*/
+#home1{
+    background: url(../img/2.jpg) right;
+    background-size: cover;
+    height: 620px;
+}
+#header {
+    position: fixed;
+
+}
+
+#header.header-scrolled {
+    box-shadow: -21.213px 21.213px 30px 0px rgba(158,158,158,0.3);
+    background: rgba(34,34,34,0.9);
+    transition: all 0.5s;
+    width: 100%;
+    
+}
+
+#header.header-scrolled .list a {
+    color: #fff;
+}
+
+.list1{
+    display: flex;
+    text-align: right;
+    padding-left: 650px;
+}
+.list
+{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    font-size: 16px;
+    font-family: Calibri (Body);
+
+}
+.list li
+{
+    padding: 17px 5px;
+    width: 90px;
+    text-align: center;
+}
+.logo{
+    width: 60px;
+    height: 100px;
+    display: inline;
+}
+.img{
+    margin: auto;
+    margin-right: 20px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 86px;
+
+}
+.container0{
+    color: white;
+    padding: 100px;
+
+}
+.text1{
+    font-size: 85px;
+    font-family: Monotype Corsiva;
+    margin-bottom: 0px;
+}
+.text2{   
+    margin-bottom: 33px;
+    
+}
+.button1{
+    padding: 13px 30px;
+    color: white;
+    border-radius: 20px;
+    background-color: #f42f2c;
+}
+a{
+    text-decoration: unset;
+    color: black;
+}
+a:hover{
+    color:#f42f2c;
+}
+.button1:hover{
+    background-color:unset;
+    border:1px solid white;
+    color: white;
+}
+/*end section home*/
+/*start section dish*/
+.container1{
+
+    text-align: center;
+}
+.text3{
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+}
+.text4{
+    color: #808080db;
+    font-size: 14px;
+    font-family: Calibri Light;
+    text-align: center;
+
+}
+.port {
+    display: flex;
+    overflow: hidden;
+    padding-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pic img {
+    width: 366px;
+    height: 280px;
+    padding: 12px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    transition: all .5s ease-in-out;
+}
+img :hover{
+    transform: matrix3d(3,0,0,0,0,3,0,0,0,0,1,0,0,0,0,1);
+}
+.text5{
+    font-size: 25px;
+    margin-top: 0px;
+    text-align: left;
+    padding-left: 17px;
+    font-style: italic;
+    color: #171715e0;
+    margin-bottom: 20px;
+
+}
+.text6{
+    font-size: 16px;
+    padding: 10px;
+    text-align: left;
+    color: #7d8077c9;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 17px;
+    font-family: Calibri Light;
+}
+/*end section dish*/
+/*start section container3 which contain the pic*/
+.container2{
+    background: url(../img/5.jpg) right;
+    background-size: cover;
+    height: 620px;
+}
+.text7{
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 305px;
+    font-family: Andalus;
+}
+/*end section container3*/
+/*start section feature*/
+.picture img{
+    padding: 12px;
+    padding-bottom: 10px;
+}
+.contt{
+    padding-left: 114px;
+}
+/*end section feature*/
+  /*start section about us*/
+  .about{
+    width: 98.3%;
+    height: 285px;
+    padding: 0px 10px 0px 12px;
+    background-color: #463d3d0d;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .span{
+    padding-left: 75px;
+  }
+  /*end section about us*/
+  /*start footer*/
+.foot {
+    height: 80px;
+    color: white;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    font-family: Calibri (Body);
+    background-color: rgba(34,34,34,0.9);
+}
+.foott{
+    height: 40px;;
+    background-color: #040404db;
+    padding-left: 572px;
+    padding-top: 9px;
+    color: white;
+}
+/*end footer*/
+/*end home page*/
+
+/*start gallery page*/
+.pictures{
+    width: 100%;
+}
+.head{
+    background: url(../img/5.jpg) right;
+    background-size: cover;
+    height: 620px;
+}
+.ports{
+    width: 100%;
+}
+.pics{
+    display: inline;
+}
+
+.pic1{
+    width: 500px;
+    height: 600px;
+    padding-left: 45px;
+}
+.pic2{
+    width: 700px;
+    height: 400px;
+    padding-left: 40px;
+    padding-bottom: 75px;
+}
+.pic3{
+    width: 100%;
+    height: 600px;
+    padding: 57px 0px 10px 0px;
+}
+
+.pic5{
+    width: 300px;
+}
+.pic7{
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
+/*end gallery page*/
+/*start testimonioals*/
+.head1{
+    background: url(../img/15.png) right;
+    background-size: cover;
+    height: 620px;
+}
+.opinion{
+    width: 100%;
+    display: inline-flex;
+   
+}
+
+.opinions{
+    margin: 10px;
+    width: 500px;
+    margin-left: 125px;
+    background: linear-gradient(#0a0707, #464141b0, #fff3f3);
+    border-radius: 15px;
+}
+.pragraph{
+    padding-left: 50px;
+}
+.opinions img{
+    width: 100px;
+    height: 100px;
+    border-radius: 72px;
+}
+.imgs{
+    width: 100px;
+    height: 100px;
+    display: block;
+    padding-top: 10px;
+    padding-left: 200px;
+}
+.text3r{
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 5px #ff0000c7;
+}
+/*start testimonioals*/
+
+
+
+
+
+
+
+
